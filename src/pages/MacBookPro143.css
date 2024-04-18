@@ -1,0 +1,38 @@
+.overlay1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.dune-1-icon {
+  position: absolute;
+  top: -476px;
+  left: -216px;
+  width: 2000px;
+  height: 3000px;
+  object-fit: cover;
+}
+.dune-1-parent {
+  height: 982px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.macbook-pro-14-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

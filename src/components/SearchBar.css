@@ -1,0 +1,12 @@
+.search-bar {
+  border: 0;
+  background-color: transparent;
+  width: 626px;
+  height: 91px;
+  font-family: var(--font-bellefair);
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+}

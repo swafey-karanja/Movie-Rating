@@ -1,0 +1,143 @@
+.background-image-icon {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 1512px;
+  height: 1990px;
+  object-fit: cover;
+}
+.log-in-form1,
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay {
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.log-in-form1 {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray-200);
+}
+.log-in {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.log-in-wrapper {
+  width: 447px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line,
+.blank-line1,
+.convallis-convallis-tellus,
+.lorem-ipsum-dolor,
+.malesuada-fames-ac {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  text-align: left;
+  z-index: 1;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.connect-button {
+  height: 71px;
+  width: 258px;
+  position: absolute;
+  margin: 0 !important;
+  right: -24px;
+  bottom: -31px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-teal);
+  cursor: pointer;
+  z-index: 1;
+}
+.connect-to-wallet {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.connect-button-parent {
+  width: 211px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.log-in-form,
+.log-in-form-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.log-in-form-inner {
+  width: 445px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-6xl);
+}
+.log-in-form {
+  position: absolute;
+  top: calc(50% - 357px);
+  left: calc(50% - 295px);
+  width: 590px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-27xl) var(--padding-65xl)
+    var(--padding-52xl);
+  box-sizing: border-box;
+  gap: var(--gap-69xl);
+  z-index: 2;
+}
+.log-in-page-2 {
+  width: 100%;
+  height: 982px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-bellefair);
+}
+@media screen and (max-width: 767px) {
+  .log-in {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .log-in {
+    font-size: var(--font-size-lg);
+  }
+  .connect-to-wallet,
+  .lorem-ipsum-dolor-container {
+    font-size: var(--font-size-xl);
+  }
+}
